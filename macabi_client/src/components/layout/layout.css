@@ -1,0 +1,44 @@
+/* section {
+    height: 100%;
+    background-color: lightcyan;
+    text-align: center;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 10% auto 10%;
+  }
+  
+  header,
+  footer {
+    grid-column: span 12;
+    min-width: 24px;
+  }
+  
+  main {
+    grid-column: span 12;
+  } */
+
+  section {
+    height: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 8% auto 30%;
+  }
+  
+  header,
+  footer {
+    grid-column: span 12;
+    min-width: 24px;
+  }
+  
+  header {
+    min-height: 60px;
+  }
+  
+  main {
+    grid-column: span 12;
+    height: 100%;
+    background-color: #f3f3f3;
+  }

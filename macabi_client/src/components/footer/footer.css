@@ -1,0 +1,52 @@
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    color: white;
+    background-color: #210058;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .topFooter {
+    background-color: #011e54;
+    height: 20px;
+  }
+  
+  .footerContentDiv {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px;
+    color: white;
+    font-size: 12px;
+  }
+
+  @media only screen and (max-width: 440px) {
+    .footerContentDiv {
+      display: grid;
+    }
+  
+    .footerContentColumn {
+      width: 100%;
+    }
+  }
+  
+  @media only screen and (min-width: 441px) {
+    .footerContentDiv {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+    }
+  
+    .footerContentColumn {
+      width: 25%;
+      padding-left: 18px;
+      padding-right: 18px;
+    }
+  }
