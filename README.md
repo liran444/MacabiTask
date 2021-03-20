@@ -57,6 +57,6 @@ Hence the decision to make them both unique.
 ![responsive](./responsive.png)
 
 
-### Talbe Sorting - Ascending / Descending:
+### Table Sorting - Ascending / Descending:
 
 ![tablesorting](./tablesorting.png)
